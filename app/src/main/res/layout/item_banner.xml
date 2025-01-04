@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/banner_frame"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="2dp">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:id="@+id/productImage"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:fontFamily="@font/new_font"
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@color/green"
+        android:textColor="@color/black"
+        android:text="Product Name" />
+
+    <TextView
+        android:gravity="right"
+        android:id="@+id/productPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/red"
+        android:text="Discounted Price" />
+</LinearLayout>

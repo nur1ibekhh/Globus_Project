@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Fonga oq rang -->
+    <corners android:radius="12dp" /> <!-- Yumaloq burchaklar -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/green" /> <!-- Ramka rangi -->
+</shape>

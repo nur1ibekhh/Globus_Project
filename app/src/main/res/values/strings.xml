@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Globus Nukus</string>
+    <string name="default_name"> </string>
+
+    <string-array name="gender_array">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/white"
+    android:gravity="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Umumiy bo'lim"
+                android:textStyle="bold"
+                android:textColor="@color/green"
+                android:textSize="28sp"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Isim familyanggiz:"
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="User name"
+                android:id="@+id/userNameTxt"
+                android:textSize="18sp"
+                android:textColor="@color/green" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Umumiy mahsulotlar narxi(UZS):"
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="UZS"
+                android:textSize="18sp"
+                android:textColor="@color/green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/grey_bg">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@color/green"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:text="Buyurtma muvoffaqatli amalga oshirildi !!!"
+                    android:textSize="18sp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mening buyurtmalarim bo'limidan ko'rishinggiz mumkin"
+                    android:textSize="18sp"
+                    android:textColor="@color/purple_600" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/white_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:id="@+id/openHistoryPageTxt"
+                    android:text="Mening Buyurtmalarim bo'limini ochish"
+                    android:textSize="20sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/white_bg"
+                android:orientation="vertical">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    app:lottie_rawRes="@raw/pay_successfully"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:background="@drawable/green_bg"
+            style="@android:style/Widget.Button"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:id="@+id/backToHomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home bo'limga o'tish"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>
